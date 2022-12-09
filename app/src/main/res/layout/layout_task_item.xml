@@ -5,6 +5,7 @@
     android:layout_height="match_parent">
 
     <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_task_name"
         android:layout_width="match_parent"
         android:text="Digite um Ítem"
         android:gravity="center"
@@ -16,6 +17,7 @@
         android:layout_height="wrap_content"/>
 
     <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_date"
         android:layout_width="match_parent"
         android:text="01/01/2000"
         android:gravity="center"
